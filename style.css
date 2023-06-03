@@ -1,0 +1,63 @@
+body
+{
+    background-size: cover;
+    text-align: center;
+}
+#heading {
+    width: 100%;
+    text-align: left;
+    background-color: #ff3f00;
+    height: 50px;
+
+}
+
+#heading h3 {
+    display: inline;
+    color: #ffffcd;
+    font-family: 'Playfair', serif;
+font-family: 'Playfair Display', serif;
+font-size: xx-large;
+}
+
+#heading button {
+    float: right;
+    border: 1px solid black;
+    background-color: rgba(255, 100, 44, 0.781);
+}
+
+#start , #status{
+    font-size: 22px;
+    font-family: 'Playfair', serif;
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+    border: 1px solid black;
+    background-color: #ff7f00;
+    color: darkblue;
+}
+
+#text{
+    text-align: left;
+    font-size: large;
+}
+
+#restart {
+    background-color: #fb6f00;
+    border: 1px solid black;
+    color: darkblue;
+}
+
+#footer {
+   position: fixed;
+   font-size: large;
+   left: 0;
+   line-height: 20px;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+canvas {
+border: 2px solid black;
+}
